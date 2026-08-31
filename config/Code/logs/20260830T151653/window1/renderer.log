@@ -1,8 +1,0 @@
-2026-08-30 15:16:56.525 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
-2026-08-30 15:16:56.643 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 104ms.
-2026-08-30 15:16:57.731 [info] [AgentHost:renderer] MessagePort acquired, creating client...
-2026-08-30 15:16:58.621 [info] Started local extension host with pid 1290589.
-2026-08-30 15:16:58.845 [error] Extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2026-08-30 15:17:02.491 [info] [AgentHost:renderer] Protocol connection established; clientId=ae56f8ca-384a-4905-a39d-a826d3d5e9f4
-2026-08-30 15:17:02.853 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
-2026-08-30 15:17:03.557 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled
