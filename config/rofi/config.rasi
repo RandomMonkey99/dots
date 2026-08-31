@@ -1,0 +1,267 @@
+/**
+ * rofi -dump-theme output.
+ * Rofi version: 2.0.0
+ **/
+* {
+    normal-background:           var(background);
+    primary-fixed-dim:           rgba ( 145, 213, 172, 100 % );
+    primary-fixed:               rgba ( 173, 242, 199, 100 % );
+    background:                  rgba ( 15, 21, 17, 100 % );
+    on-tertiary-container:       rgba ( 191, 233, 249, 100 % );
+    background-color:            transparent;
+    surface-container-low:       rgba ( 23, 29, 25, 100 % );
+    outline-variant:             rgba ( 64, 73, 66, 100 % );
+    shadow:                      Black;
+    secondary-container:         rgba ( 55, 75, 62, 100 % );
+    separatorcolor:              var(foreground);
+    active-background:           var(background);
+    error:                       rgba ( 255, 180, 171, 100 % );
+    on-primary-fixed-variant:    rgba ( 4, 82, 51, 100 % );
+    surface-container-high:      rgba ( 38, 43, 39, 100 % );
+    on-surface:                  rgba ( 223, 228, 221, 100 % );
+    border-color:                var(foreground);
+    lightfg:                     rgba ( 88, 104, 117, 100 % );
+    on-primary:                  rgba ( 0, 57, 33, 100 % );
+    alternate-urgent-foreground: var(red);
+    on-tertiary-fixed-variant:   rgba ( 34, 76, 89, 100 % );
+    surface-container:           rgba ( 27, 33, 29, 100 % );
+    on-primary-fixed:            rgba ( 0, 33, 17, 100 % );
+    on-secondary:                rgba ( 33, 53, 41, 100 % );
+    primary-container:           rgba ( 4, 82, 51, 100 % );
+    selected-urgent-foreground:  var(background);
+    alternate-urgent-background: var(lightbg);
+    secondary:                   rgba ( 181, 204, 187, 100 % );
+    error-container:             rgba ( 147, 0, 10, 100 % );
+    surface-container-lowest:    rgba ( 10, 15, 12, 100 % );
+    alternate-normal-foreground: var(foreground);
+    on-error:                    rgba ( 105, 0, 5, 100 % );
+    surface:                     rgba ( 15, 21, 17, 100 % );
+    tertiary-fixed-dim:          rgba ( 164, 205, 220, 100 % );
+    tertiary-fixed:              rgba ( 191, 233, 249, 100 % );
+    spacing:                     2;
+    selected-urgent-background:  var(red);
+    primary:                     rgba ( 145, 213, 172, 100 % );
+    inverse-surface:             rgba ( 223, 228, 221, 100 % );
+    selected-normal-foreground:  var(lightbg);
+    on-secondary-container:      rgba ( 208, 232, 214, 100 % );
+    alternate-normal-background: var(lightbg);
+    urgent-foreground:           var(red);
+    on-tertiary:                 rgba ( 4, 53, 66, 100 % );
+    outline:                     rgba ( 138, 147, 139, 100 % );
+    on-secondary-fixed:          rgba ( 11, 31, 20, 100 % );
+    alternate-active-foreground: var(blue);
+    selected-normal-background:  var(lightfg);
+    scrim:                       Black;
+    inverse-primary:             rgba ( 39, 106, 73, 100 % );
+    urgent-background:           var(background);
+    tertiary-container:          rgba ( 34, 76, 89, 100 % );
+    blue:                        rgba ( 38, 139, 210, 100 % );
+    selected-active-foreground:  var(background);
+    lightbg:                     rgba ( 238, 232, 213, 100 % );
+    alternate-active-background: var(lightbg);
+    secondary-fixed-dim:         rgba ( 181, 204, 187, 100 % );
+    normal-foreground:           var(foreground);
+    surface-container-highest:   rgba ( 48, 54, 50, 100 % );
+    inverse-on-surface:          rgba ( 44, 50, 45, 100 % );
+    selected-active-background:  var(blue);
+    foreground:                  rgba ( 0, 43, 54, 100 % );
+    on-error-container:          rgba ( 255, 218, 214, 100 % );
+    tertiary:                    rgba ( 164, 205, 220, 100 % );
+    on-secondary-fixed-variant:  rgba ( 55, 75, 62, 100 % );
+    on-tertiary-fixed:           rgba ( 0, 31, 39, 100 % );
+    red:                         rgba ( 220, 50, 47, 100 % );
+    active-foreground:           var(blue);
+    surface-dim:                 rgba ( 15, 21, 17, 100 % );
+    surface-bright:              rgba ( 53, 59, 54, 100 % );
+    secondary-fixed:             rgba ( 208, 232, 214, 100 % );
+    on-primary-container:        rgba ( 173, 242, 199, 100 % );
+    on-surface-variant:          rgba ( 192, 201, 192, 100 % );
+}
+element {
+    padding:          10px 14px ;
+    background-color: transparent;
+    cursor:           pointer;
+    text-color:       var(foreground);
+    spacing:          5px ;
+    border:           0;
+    border-radius:    10px ;
+}
+element normal.normal {
+    background-color: var(normal-background);
+    text-color:       var(normal-foreground);
+}
+element normal.urgent {
+    background-color: var(urgent-background);
+    text-color:       var(urgent-foreground);
+}
+element normal.active {
+    background-color: var(active-background);
+    text-color:       var(active-foreground);
+}
+element selected {
+    background-color: var(primary-container);
+    text-color:       var(on-primary-container);
+}
+element selected.normal {
+    background-color: var(primary-container);
+    text-color:       var(on-primary-container);
+}
+element selected.urgent {
+    background-color: var(selected-urgent-background);
+    text-color:       var(selected-urgent-foreground);
+}
+element selected.active {
+    background-color: var(selected-active-background);
+    text-color:       var(selected-active-foreground);
+}
+element selected.element-text {
+    text-color: inherit;
+}
+element selected.element-icon {
+    text-color: inherit;
+}
+element alternate {
+    background-color: var(background);
+    text-color:       var(on-surface);
+}
+element alternate.normal {
+    background-color: var(alternate-normal-background);
+    text-color:       var(alternate-normal-foreground);
+}
+element alternate.urgent {
+    background-color: var(alternate-urgent-background);
+    text-color:       var(alternate-urgent-foreground);
+}
+element alternate.active {
+    background-color: var(primary-container);
+    text-color:       var(background);
+}
+element urgent {
+    background-color: var(error-container);
+    text-color:       var(on-error-container);
+}
+element active {
+    background-color: var(primary-container);
+    text-color:       var(on-primary-container);
+}
+element-text {
+    background-color: transparent;
+    cursor:           inherit;
+    highlight:        inherit;
+    text-color:       inherit;
+}
+element-icon {
+    padding:          0px 10px 0px 0px ;
+    background-color: transparent;
+    size:             24px ;
+    cursor:           inherit;
+    text-color:       inherit;
+}
+window {
+    padding:          5;
+    background-color: var(background);
+    width:            600px ;
+    border-color:     var(primary-container);
+    text-color:       var(foreground);
+    border:           2px ;
+    border-radius:    18px ;
+}
+mainbox {
+    padding:          20px ;
+    background-color: var(background);
+    spacing:          15px ;
+    border:           0;
+}
+message {
+    padding:      10px ;
+    border-color: var(separatorcolor);
+    border:       2px dash 0px 0px ;
+    text-color:   var(foreground);
+}
+textbox {
+    text-color: var(foreground);
+}
+listview {
+    fixed-height:     0;
+    padding:          2px 0px 0px ;
+    scrollbar:        false;
+    lines:            8;
+    background-color: var(background);
+    border-color:     var(separatorcolor);
+    columns:          1;
+    spacing:          6px ;
+    border:           2px dash 0px 0px ;
+}
+scrollbar {
+    width:        4px ;
+    padding:      0;
+    handle-width: 8px ;
+    border:       0;
+    handle-color: var(normal-foreground);
+}
+sidebar {
+    border-color: var(separatorcolor);
+    border:       2px dash 0px 0px ;
+}
+button {
+    cursor:     pointer;
+    spacing:    0;
+    text-color: var(normal-foreground);
+}
+button selected {
+    background-color: var(selected-normal-background);
+    text-color:       var(selected-normal-foreground);
+}
+num-filtered-rows {
+    expand:     false;
+    text-color: Gray;
+}
+num-rows {
+    expand:     false;
+    text-color: Gray;
+}
+textbox-num-sep {
+    expand:     false;
+    str:        "/";
+    text-color: Gray;
+}
+inputbar {
+    padding:          12px ;
+    background-color: var(background);
+    border-radius:    12px ;
+    spacing:          0px ;
+    text-color:       var(foreground);
+    children:         [ "prompt","textbox-prompt-colon","entry","overlay","num-filtered-rows","textbox-num-sep","num-rows","case-indicator" ];
+}
+overlay {
+    padding:          0px 0.2000em ;
+    background-color: var(normal-foreground);
+    foreground-color: var(normal-background);
+    margin:           0px 0.2000em ;
+    text-color:       var(normal-background);
+}
+case-indicator {
+    spacing:    0;
+    text-color: var(normal-foreground);
+}
+entry {
+    text-color:        var(foreground);
+    cursor:            text;
+    spacing:           0;
+    placeholder-color: Gray;
+    placeholder:       "Type to filter";
+}
+prompt {
+    padding:    0px 10px 0px 0px ;
+    spacing:    0;
+    text-color: var(foreground);
+}
+textbox-prompt-colon {
+    margin:     0px 0.3000em 0.0000em 0.0000em ;
+    expand:     false;
+    str:        ":";
+    text-color: inherit;
+}
+error-message {
+    text-color: var(error);
+}
