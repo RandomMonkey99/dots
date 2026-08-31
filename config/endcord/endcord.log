@@ -1,0 +1,50 @@
+2026-08-15-11:54:21 - INFO
+  [main]: Started endcord 1.5.3
+
+2026-08-15-11:54:21 - ERROR
+  [profile_manager]: secret-tool error: Command '['secret-tool', 'store', '--label=endcord profiles', 'service', 'endcord']' returned non-zero exit status 1.
+
+2026-08-15-11:54:21 - INFO
+  [app]: Build info:
+  Python 3.14.6 (main, Jul 28 2026, 16:09:48) [Clang 22.1.8 )] (CUSTOM BUILD) on linux
+  ncurses 6.6.20260725 (module v2.2) 
+  Features: nuitka, cythonized, level=FULL, media, call
+
+2026-08-15-11:54:21 - INFO
+  [app]: Connecting to Discord
+
+2026-08-15-11:54:22 - INFO
+  [peripherals]: Aspell initialized in 20.401 ms
+
+2026-08-15-11:54:22 - INFO
+  [app]: Loaded 2 extensions:
+  endcord-image-inline 0.1.10 - OK
+  endcord-image-pfp 0.1.0 - OK
+
+2026-08-15-11:54:22 - INFO
+  [app]: Init sequence started
+
+2026-08-15-11:54:22 - INFO
+  [app]: Waiting for ready signal from gateway
+
+2026-08-15-11:54:24 - INFO
+  [app]: Gateway is ready
+
+2026-08-15-11:54:24 - INFO
+  [app]: Main loop started after 2728.851 ms
+
+2026-08-15-11:54:24 - INFO
+  [rpc]: RPC server started
+
+2026-08-15-11:54:24 - INFO
+  [game_detection]: Game detection service started
+
+2026-08-15-11:54:42 - INFO
+  [endcord-image-pfp]: 28
+
+2026-08-15-11:54:56 - INFO
+  [endcord-image-pfp]: 28
+
+2026-08-15-11:55:35 - INFO
+  [gateway]: Disconnected with status code 1000
+

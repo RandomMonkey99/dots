@@ -1,0 +1,39 @@
+{
+  "environment": {
+    "executable": "/home/rm99/python/.env/bin/python",
+    "prefix": "/home/rm99/python/.env",
+    "version": "3.14.7.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/home/rm99/python/.env/bin/python",
+      "/home/rm99/python/.env/bin/python3",
+      "/home/rm99/python/.env/bin/python3.14"
+    ]
+  },
+  "symlinks": [
+    [
+      "/home/rm99/python/.env/bin/python",
+      {
+        "secs_since_epoch": 1786348016,
+        "nanos_since_epoch": 0
+      },
+      null
+    ],
+    [
+      "/home/rm99/python/.env/bin/python3",
+      {
+        "secs_since_epoch": 1786348016,
+        "nanos_since_epoch": 0
+      },
+      null
+    ],
+    [
+      "/home/rm99/python/.env/bin/python3.14",
+      {
+        "secs_since_epoch": 1786348016,
+        "nanos_since_epoch": 0
+      },
+      null
+    ]
+  ]
+}

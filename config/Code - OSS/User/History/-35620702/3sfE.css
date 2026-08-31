@@ -1,0 +1,43 @@
+window#osd {
+  padding: 0px 6px;
+  border: 1px solid #f7768e;
+  border-radius: 8px;
+  background: #1a1b26;
+  box-shadow: 1px 2px 2px black;
+}
+
+image,
+label {
+  color: #f7768e;
+  font-size: 16px;
+}
+
+progressbar:disabled,
+image:disabled {
+  opacity: 0.5;
+}
+
+progressbar {
+  min-height: 6px;
+  border-radius: 999px;
+  background: transparent;
+  border: none;
+}
+
+trough {
+  min-height: inherit;
+  border-radius: inherit;
+  border: none;
+  background: transparent;
+}
+
+progress {
+  min-height: inherit;
+  border-radius: inherit;
+  border: none;
+  background: #f7768e;
+}
+
+#container {
+  margin: 6px;
+}

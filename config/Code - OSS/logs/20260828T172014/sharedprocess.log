@@ -1,0 +1,14 @@
+2026-08-28 17:21:07.619 [info] Getting Manifest... theqtcompany.qt-qml
+2026-08-28 17:21:08.166 [info] Installing extension: theqtcompany.qt-qml {"pinned":false,"productVersion":{"version":"1.135.0","date":"2026-08-19T08:33:33Z"},"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/rm99/.vscode-oss/extensions/extensions.json","path":"/home/rm99/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-08-28 17:21:10.780 [info] Getting Manifest... theqtcompany.qt-core
+2026-08-28 17:21:11.006 [info] Installing extension: theqtcompany.qt-core {"pinned":false,"productVersion":{"version":"1.135.0","date":"2026-08-19T08:33:33Z"},"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/rm99/.vscode-oss/extensions/extensions.json","path":"/home/rm99/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-08-28 17:21:11.134 [info] Extension signature verification result for theqtcompany.qt-qml: Success. Executed: true. Duration: 506ms.
+2026-08-28 17:21:11.826 [info] Extracted extension to file:///home/rm99/.vscode-oss/extensions/theqtcompany.qt-qml-1.16.0-universal: theqtcompany.qt-qml
+2026-08-28 17:21:11.870 [info] Renamed to /home/rm99/.vscode-oss/extensions/theqtcompany.qt-qml-1.16.0-universal
+2026-08-28 17:21:11.967 [info] Marked extension as removed theqtcompany.qt-qml-1.14.0-universal
+2026-08-28 17:21:12.013 [info] Extension installed successfully: theqtcompany.qt-qml vscode-userdata:/home/rm99/.vscode-oss/extensions/extensions.json
+2026-08-28 17:21:14.709 [info] Extension signature verification result for theqtcompany.qt-core: Success. Executed: true. Duration: 1306ms.
+2026-08-28 17:21:20.988 [info] Extracted extension to file:///home/rm99/.vscode-oss/extensions/theqtcompany.qt-core-1.16.0-universal: theqtcompany.qt-core
+2026-08-28 17:21:21.033 [info] Renamed to /home/rm99/.vscode-oss/extensions/theqtcompany.qt-core-1.16.0-universal
+2026-08-28 17:21:21.109 [info] Marked extension as removed theqtcompany.qt-core-1.14.0-universal
+2026-08-28 17:21:21.117 [info] Extension installed successfully: theqtcompany.qt-core vscode-userdata:/home/rm99/.vscode-oss/extensions/extensions.json

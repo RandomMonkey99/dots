@@ -1,0 +1,111 @@
+2026-08-30 16:34:40.156 [info] Python-envs extension version: 1.36.0
+2026-08-30 16:34:40.156 [info] 
+=== Python Envs Configuration Levels ===
+2026-08-30 16:34:40.156 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-08-30 16:34:40.156 [info] [pet] Starting Python Locator /home/rm99/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/python-env-tools/bin/pet server
+2026-08-30 16:34:40.156 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-08-30 16:34:40.156 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-08-30 16:34:40.156 [info] Registering poetry manager (environments will be discovered lazily)
+2026-08-30 16:34:40.156 [error] TerminalEnvVarInjector: Error injecting environment variables for workspace /home/rm99/python: [EntryIsADirectory (FileSystemError): Error: EISDIR: illegal operation on a directory, read
+	at lr._handleError (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:544:21539)
+	at Object.readFile (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:544:19809)
+	at async t.parseEnvFile (/home/rm99/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:357593)
+	at async t.PythonEnvVariableManager.getEnvironmentVariables (/home/rm99/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:359441)
+	at async t.TerminalEnvVarInjector.injectEnvironmentVariablesForWorkspace (/home/rm99/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:454613)
+	at async t.TerminalEnvVarInjector.updateEnvironmentVariables (/home/rm99/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:454294)
+	at async t.TerminalEnvVarInjector.initialize (/home/rm99/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:453761)] {
+  code: 'FileIsADirectory'
+}
+2026-08-30 16:34:40.559 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/rm99/python"],"environmentDirectories":["/home/rm99/python/.venv","/home/rm99/python/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/rm99/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-08-30 16:34:47.374 [info] Refreshing Pyenv Environments
+2026-08-30 16:34:47.375 [info] Refreshing pyenv environments
+2026-08-30 16:34:47.375 [info] Refreshing Pipenv Environments
+2026-08-30 16:34:47.375 [info] Refreshing pipenv environments
+2026-08-30 16:34:47.375 [info] Refreshing Poetry Environments
+2026-08-30 16:34:47.375 [info] Refreshing poetry environments
+2026-08-30 16:34:50.402 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/rm99/python"],"environmentDirectories":["/home/rm99/python/.venv","/home/rm99/python/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/rm99/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-08-30 16:34:50.985 [error] [pet] [2m  11.361010648s[0m [33m WARN[0m [2mpet_python_utils::cache[0m[2m:[0m Cache directory has already been set to "/home/rm99/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator". Cannot change it now.
+
+2026-08-30 16:34:53.509 [info] Discovered env: /home/rm99/python/.env/bin/python
+2026-08-30 16:34:53.938 [info] Discovered env: /usr/bin/python
+2026-08-30 16:34:54.260 [info] Conda not found, turning off conda features. [Error: Conda not found
+	at L (/home/rm99/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:629081)
+	at runNextTicks (node:internal/process/task_queues:65:5)
+	at process.processImmediate (node:internal/timers:472:9)
+	at async V (/home/rm99/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:629206)
+	at async t.registerCondaFeatures (/home/rm99/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:648591)
+	at async t.safeRegister (/home/rm99/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:290365)
+	at async Promise.all (index 1)
+	at async Immediate.<anonymous> (/home/rm99/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:782813)]
+2026-08-30 16:34:54.279 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-08-30 16:34:54.684 [info] Resolved Python Environment /home/rm99/python/.env/bin/python
+2026-08-30 16:34:54.780 [info] Discovered env: /home/rm99/python/.env/bin/python
+2026-08-30 16:34:55.985 [info] Resolved Python Environment /home/rm99/python/.env/bin/python
+2026-08-30 16:34:56.292 [info] Discovered env: /usr/bin/python
+2026-08-30 16:34:57.694 [info] Discovered env: /home/rm99/python/.env/bin/python
+2026-08-30 16:34:58.003 [info] Discovered env: /usr/bin/python
+2026-08-30 16:34:59.556 [info] Resolved Python Environment /home/rm99/python/.env/bin/python
+2026-08-30 16:35:01.012 [info] Resolved Python Environment /home/rm99/python/.env/bin/python
+2026-08-30 16:35:01.088 [info] Found venv environment: .env (3.14.7)
+2026-08-30 16:35:01.181 [info] Python API: Changed environment from undefined to .env (3.14.7.final.0) for: /home/rm99/python
+2026-08-30 16:35:01.181 [info] Internal: Changed environment from undefined to .env (3.14.7.final.0) for: /home/rm99/python
+2026-08-30 16:35:01.184 [info] [interpreterSelection] python: .env (3.14.7.final.0) (source: autoDiscovery)
+2026-08-30 16:35:01.184 [info] [interpreterSelection] Workspace env resolved, deferring global scope to background
+2026-08-30 16:35:01.471 [info] Python API: Changed environment from .env (3.14.7.final.0) to .env (3.14.7) for: /home/rm99/python
+2026-08-30 16:35:01.471 [info] Internal: Changed environment from .env (3.14.7.final.0) to .env (3.14.7) for: /home/rm99/python
+2026-08-30 16:35:01.474 [info] Python API: Changed environment from undefined to Python 3.14.7.final.0 for: global
+2026-08-30 16:35:01.474 [info] Internal: Changed environment from undefined to Python 3.14.7.final.0 for: global
+2026-08-30 16:35:01.474 [info] [interpreterSelection] global: Python 3.14.7.final.0 (source: autoDiscovery)
+2026-08-30 16:35:01.575 [info] Discovered env: /home/rm99/python/.env/bin/python
+2026-08-30 16:35:01.592 [info] Resolved Python Environment /home/rm99/python/.env/bin/python
+2026-08-30 16:35:02.132 [info] Resolved Python Environment /home/rm99/python/.env/bin/python
+2026-08-30 16:35:02.499 [info] Discovered env: /usr/bin/python
+2026-08-30 16:35:06.904 [info] Discovered env: /home/rm99/python/.env/bin/python
+2026-08-30 16:35:06.915 [info] Python API: Changed environment from .env (3.14.7) to .env (3.14.7.final.0) for: /home/rm99/python
+2026-08-30 16:35:06.915 [info] Internal: Changed environment from .env (3.14.7) to .env (3.14.7.final.0) for: /home/rm99/python
+2026-08-30 16:35:07.103 [info] Discovered env: /usr/bin/python
+2026-08-30 16:35:07.756 [info] Found venv environment: .env (3.14.7)
+2026-08-30 16:35:07.948 [warning] [venv] Environment discovery took 20.6s (found 1 environments). If this is causing problems, please report it: https://github.com/microsoft/vscode-python-environments/issues/new
+2026-08-30 16:35:08.068 [info] Python API: Changed environment from .env (3.14.7.final.0) to .env (3.14.7) for: /home/rm99/python
+2026-08-30 16:35:08.068 [info] Internal: Changed environment from .env (3.14.7.final.0) to .env (3.14.7) for: /home/rm99/python
+2026-08-30 16:35:08.069 [info] Discovered env: /home/rm99/python/.env/bin/python
+2026-08-30 16:35:08.258 [info] Refreshing pyenv environments
+2026-08-30 16:35:08.272 [info] Discovered env: /usr/bin/python
+2026-08-30 16:35:08.772 [info] Discovered env: /home/rm99/python/.env/bin/python
+2026-08-30 16:35:09.523 [info] Discovered env: /usr/bin/python
+2026-08-30 16:35:09.757 [info] Pipenv not found via settings, cache, or PATH
+2026-08-30 16:35:09.757 [info] Found 0 pipenv environments
+2026-08-30 16:35:11.709 [info] Pipenv not found via settings, cache, or PATH
+2026-08-30 16:35:11.710 [info] Refreshing pipenv environments
+2026-08-30 16:35:11.711 [info] Poetry executable not found
+2026-08-30 16:35:11.735 [warning] [PyEnv] Environment discovery took 24.4s (found 0 environments). If this is causing problems, please report it: https://github.com/microsoft/vscode-python-environments/issues/new
+2026-08-30 16:35:11.806 [info] Pipenv not found via settings, cache, or PATH
+2026-08-30 16:35:11.806 [info] Found 0 pipenv environments
+2026-08-30 16:35:11.814 [info] Refreshing poetry environments
+2026-08-30 16:35:11.846 [info] Pipenv not found via settings, cache, or PATH
+2026-08-30 16:35:11.852 [warning] [Pipenv] Environment discovery took 24.5s (found 0 environments). If this is causing problems, please report it: https://github.com/microsoft/vscode-python-environments/issues/new
+2026-08-30 16:35:11.865 [info] Poetry executable not found
+2026-08-30 16:35:11.888 [info] Environment discovery complete: 2 environments found (Global: 1, venv: 1)
+2026-08-30 16:35:11.888 [warning] [Poetry] Environment discovery took 24.5s (found 0 environments). If this is causing problems, please report it: https://github.com/microsoft/vscode-python-environments/issues/new
+2026-08-30 16:45:39.403 [info] Terminal is activated: /home/rm99/python/.env/bin/python
+2026-08-30 16:45:39.413 [info] runInTerminal: executeCommand /home/rm99/python/.env/bin/python /home/rm99/python/file.py
+2026-08-30 16:46:27.694 [info] Terminal is activated: /home/rm99/python/.env/bin/python
+2026-08-30 16:46:27.695 [info] runInTerminal: executeCommand /home/rm99/python/.env/bin/python /home/rm99/python/file.py
+2026-08-30 16:48:05.197 [info] Terminal is activated: /home/rm99/python/.env/bin/python
+2026-08-30 16:48:05.198 [info] runInTerminal: executeCommand /home/rm99/python/.env/bin/python /home/rm99/python/file.py
+2026-08-30 16:49:02.686 [info] runInTerminal: executeCommand /home/rm99/python/.env/bin/python /home/rm99/python/file.py
+2026-08-30 16:49:26.723 [info] runInTerminal: executeCommand /home/rm99/python/.env/bin/python /home/rm99/python/file.py

@@ -1,0 +1,227 @@
+:root {
+  /* Tokyo Night Palette */
+  --primary-col: #7aa2f7;
+  --primary-col-glow: #7aa2f799;
+
+  --gray: #565f89;
+
+  --bg-col: #1a1b26;
+  --surface: #24283b;
+  --surface-hover: #2f3549;
+  --surface-hover-glow: #2f354977;
+
+  --text: #c0caf5;
+  --text-muted: #a9b1d6;
+
+  --btn-list-col: var(--surface);
+  --btn-list-col-hover: var(--surface-hover);
+
+  --btn-nav-col: #414868;
+  --btn-nav-col-hover: #1f2335;
+
+  --error: #f7768e;
+
+  --emoji-font: "Noto Color Emoji";
+}
+
+* {
+  outline: none;
+}
+
+window {
+  background-color: var(--bg-col);
+  border-radius: 10px;
+  padding: 12px 0 0;
+}
+
+.generic-btn {
+  background: var(--btn-list-col);
+  padding: 0 5px;
+  border-radius: 10px;
+  color: var(--primary-col);
+  -gtk-icon-size: 24px;
+}
+
+.generic-btn:hover {
+  background: var(--btn-list-col-hover);
+  border: 1px solid var(--gray);
+  animation: boing-ani 2s ease-in-out infinite;
+}
+
+@keyframes boing-ani {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pin-window-btn:hover {
+  border: 1px solid var(--gray);
+}
+
+.shot-animation {
+  animation: shot 1s ease-in-out forwards;
+}
+
+.generic-btn.shot-animation:hover {
+  background: var(--btn-list-col-hover);
+  animation:
+    boing-ani 2s ease-in-out infinite,
+    shot 1s ease-in-out forwards;
+}
+
+@keyframes shot {
+  0% {
+    border: 1px solid var(--primary-col);
+  }
+  50% {
+    border: 1px solid #c0caf5;
+  }
+  100% {
+    border: 1px solid transparent;
+  }
+}
+
+entry {
+  background-color: var(--btn-list-col);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 0 15px;
+}
+
+.focused.active {
+  font-weight: 500;
+  border: 1px solid var(--primary-col);
+  box-shadow:
+    0 3px 7px 0 var(--primary-col-glow),
+    0 1px 2px -1px var(--primary-col-glow);
+}
+
+.focused.active:focus {
+  box-shadow: inset 0 0 0 1px var(--primary-col-glow);
+}
+
+.category_nav button {
+  background: var(--btn-list-col);
+  color: var(--text);
+  border: none;
+  padding: 1px 5px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.category_nav button:hover,
+.category_nav button:focus {
+  background: var(--btn-list-col-hover);
+  box-shadow:
+    0 3px 7px 0 var(--surface-hover-glow),
+    0 1px 2px -1px var(--surface-hover-glow);
+}
+
+.nav_enabled button.active,
+.nav_enabled button.active:focus {
+  background: var(--primary-col);
+  color: var(--bg-col);
+}
+
+.nav_enabled button.active,
+.nav_enabled button.active:hover,
+.nav_enabled button.active:focus {
+  box-shadow:
+    0 3px 7px 0 var(--primary-col-glow),
+    0 1px 2px -1px var(--primary-col-glow);
+}
+
+.emoji-item {
+  font-family: var(--emoji-font);
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: 2px solid var(--btn-list-col);
+}
+
+.emoji-item:hover {
+  background-color: var(--btn-list-col);
+}
+
+.emoji-item:focus {
+  background-color: var(--btn-list-col-hover);
+}
+
+.toast-container {
+  background-color: var(--btn-list-col);
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin: 0 20px 20px;
+  border: 1px solid var(--primary-col);
+
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.0000000001);
+}
+
+.toast-container.error {
+  border-color: var(--error);
+}
+
+.toast-label {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.show-toast {
+  transform: scale(1);
+  animation: boingCombo 5s both;
+}
+
+@keyframes boingCombo {
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  0.6% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  1.2% {
+    transform: scale3d(.9, .9, .9);
+  }
+
+  1.8% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  2.4% {
+    transform: scale3d(.97, .97, .97);
+  }
+
+  3% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+
+  90% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+
+  92% {
+    transform: scale3d(.9, .9, .9);
+  }
+
+  95%,
+  95.5% {
+    opacity: 1;
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+}

@@ -1,0 +1,175 @@
+2026-08-30 16:27:40.333 [info] Extension host with pid 1310300 started
+2026-08-30 16:27:40.333 [info] Skipping acquiring lock for /home/rm99/.config/Code/User/workspaceStorage/1a62cab7eb432840e28612e227361478.
+2026-08-30 16:27:41.608 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-08-30 16:27:41.728 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-08-30 16:27:41.808 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2026-08-30 16:27:46.427 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-08-30 16:27:46.461 [info] ExtensionService#_doActivateExtension sumneko.lua, startup: false, activationEvent: 'onLanguage:lua'
+2026-08-30 16:27:49.222 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-08-30 16:27:49.746 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-08-30 16:27:49.958 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-08-30 16:27:50.829 [info] Eager extensions activated
+2026-08-30 16:27:51.626 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-08-30 16:27:51.637 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-08-30 16:27:51.706 [info] ExtensionService#_doActivateExtension aniusch.inline-image-preview, startup: false, activationEvent: 'onStartupFinished'
+2026-08-30 16:27:51.712 [info] ExtensionService#_doActivateExtension haikalllp.matugen-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-08-30 16:28:14.589 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'onView:liveshare.session'
+2026-08-30 16:33:03.311 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-08-30 16:33:03.364 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-08-30 16:33:03.820 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-08-30 16:33:06.541 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-08-30 16:33:06.620 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-08-30 16:34:24.420 [info] Extension host terminating: received terminate message from renderer
+2026-08-30 16:34:25.286 [error] Error: Channel has been closed
+	at i (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:551:3935)
+	at Object.info (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:551:4305)
+	at rw.info (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:14:709)
+	at ChildProcess.<anonymous> (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:28:36147)
+	at ChildProcess.emit (node:events:509:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-30 16:34:25.430 [error] Error: Channel has been closed
+	at o (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:551:3524)
+	at Object.appendLine (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:551:3663)
+	at LanguageClient.logOutputMessage (/home/rm99/.vscode/extensions/sumneko.lua-3.19.1-linux-x64/client/node_modules/vscode-languageclient/lib/common/client.js:592:28)
+	at LanguageClient.error (/home/rm99/.vscode/extensions/sumneko.lua-3.19.1-linux-x64/client/node_modules/vscode-languageclient/lib/common/client.js:589:14)
+	at ChildProcess.<anonymous> (/home/rm99/.vscode/extensions/sumneko.lua-3.19.1-linux-x64/client/node_modules/vscode-languageclient/lib/node/main.js:471:30)
+	at ChildProcess.emit (node:events:509:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-30 16:34:26.314 [error] Unable to refresh tree view liveshare.session: Canceled
+2026-08-30 16:34:26.314 [error] Unable to refresh tree view liveshare.session.explorer: Canceled
+2026-08-30 16:34:26.348 [info] Extension host with pid 1310300 exiting with code 0
+2026-08-30 16:34:33.416 [info] Extension host with pid 1350940 started
+2026-08-30 16:34:33.416 [info] Skipping acquiring lock for /home/rm99/.config/Code/User/workspaceStorage/2443d91d929b9cce3a1aa3a707952b8d.
+2026-08-30 16:34:34.297 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-08-30 16:34:34.423 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-08-30 16:34:34.522 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-08-30 16:34:35.470 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2026-08-30 16:34:37.155 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-08-30 16:34:38.207 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-08-30 16:34:39.361 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-08-30 16:34:39.598 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-08-30 16:34:40.296 [info] Eager extensions activated
+2026-08-30 16:34:40.756 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-08-30 16:34:44.810 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-08-30 16:34:44.822 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-08-30 16:34:44.913 [info] ExtensionService#_doActivateExtension aniusch.inline-image-preview, startup: false, activationEvent: 'onStartupFinished'
+2026-08-30 16:34:44.919 [info] ExtensionService#_doActivateExtension haikalllp.matugen-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-08-30 16:34:49.873 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-08-30 16:34:50.765 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-08-30 16:34:51.012 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-08-30 16:34:58.009 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'onCommand:liveshare.start'
+2026-08-30 16:35:19.052 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-08-30 16:35:19.074 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-08-30 16:35:19.132 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-08-30 16:44:03.583 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-08-30 16:44:03.769 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-08-30 16:44:03.851 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-08-30 16:44:54.075 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-08-30 16:44:54.164 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-08-30 16:44:56.867 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-08-30 16:44:56.921 [info] ExtensionService#_doActivateExtension vscode.mermaid-markdown-features, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-08-30 16:45:39.711 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-08-30 18:07:00.190 [error] Error: read ETIMEDOUT
+	at TLSWrap.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-08-30 18:07:00.192 [error] ReferenceError: closeRequested is not defined
+	at WebSocketConnection.<anonymous> (/home/rm99/.vscode/extensions/ms-vsliveshare.vsliveshare-1.1.122/extension.js:1:1465771)
+	at WebSocketConnection.emit (node:events:509:28)
+	at WebSocketConnection.handleSocketClose (/home/rm99/.vscode/extensions/ms-vsliveshare.vsliveshare-1.1.122/vendor.js:110:433734)
+	at TLSSocket.emit (node:events:521:24)
+	at node:net:351:12
+	at TCP.done (node:internal/tls/wrap:752:7)
+2026-08-30 18:12:10.821 [info] Extension host terminating: received terminate message from renderer
+2026-08-30 18:12:11.022 [error] An error occurred when disposing the subscriptions for extension 'ms-python.vscode-python-envs':
+2026-08-30 18:12:11.023 [error] Error: Channel has been closed
+	at i (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:551:3935)
+	at Object.error (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:551:4394)
+	at Object.dispose (/home/rm99/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:577510)
+	at /home/rm99/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:576097
+	at Array.forEach (<anonymous>)
+	at D.dispose (/home/rm99/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:576084)
+	at bn (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:429:736)
+	at yD._fn (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:548:18838)
+	at yD.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:429:1248)
+	at N_._deactivate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:548:15155)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:548:12457
+	at Array.map (<anonymous>)
+	at N_._deactivateAll (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:548:12445)
+	at N_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:548:12796)
+	at r.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:550:1072)
+	at pa (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:853:11797)
+	at Op.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:853:9939)
+	at T._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:853:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-08-30 18:12:11.105 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.re [as deactivate] (/home/rm99/.vscode/extensions/ms-python.vscode-python-envs-1.36.0-linux-x64/dist/extension.js:2:770294)
+	at N_._deactivate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:548:14930)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:548:12457
+	at Array.map (<anonymous>)
+	at N_._deactivateAll (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:548:12445)
+	at N_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:548:12796)
+	at r.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:550:1072)
+	at pa (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:853:11797)
+	at Op.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:853:9939)
+	at T._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:853:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-08-30 18:12:11.123 [error] Unable to refresh tree view liveshare.session: Canceled
+2026-08-30 18:12:11.123 [error] Unable to refresh tree view liveshare.session.explorer: Canceled
+2026-08-30 18:12:11.218 [error] Unable to refresh tree view liveshare.session: Canceled
+2026-08-30 18:12:11.218 [error] Unable to refresh tree view liveshare.session.explorer: Canceled
+2026-08-30 18:12:11.236 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at new oS (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:152732)
+	at r._remoteCall (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:158816)
+	at i.<computed>.s.charCodeAt.i.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:155569)
+	at jg.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:543:82868)
+	at Object.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:676:25856)
+	at useProxySettings (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:277:16)
+	at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:214:13
+	at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:1134:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5) 
+2026-08-30 18:12:11.534 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at new oS (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:152732)
+	at r._remoteCall (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:158816)
+	at i.<computed>.s.charCodeAt.i.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:155569)
+	at jg.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:543:82868)
+	at Object.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:676:25856)
+	at useProxySettings (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:277:16)
+	at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:214:13
+	at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:1134:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5) 
+2026-08-30 18:12:11.772 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at new oS (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:152732)
+	at r._remoteCall (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:158816)
+	at i.<computed>.s.charCodeAt.i.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:155569)
+	at jg.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:543:82868)
+	at Object.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:676:25856)
+	at useProxySettings (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:277:16)
+	at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:214:13
+	at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:1134:13 
+2026-08-30 18:12:11.996 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at new oS (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:152732)
+	at r._remoteCall (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:158816)
+	at i.<computed>.s.charCodeAt.i.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:155569)
+	at jg.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:543:82868)
+	at Object.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:676:25856)
+	at useProxySettings (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:277:16)
+	at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:214:13
+	at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:1134:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5) 
+2026-08-30 18:12:12.178 [error] Error: Channel has been closed
+	at i (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:551:3935)
+	at Object.info (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:551:4305)
+	at cb.info (/home/rm99/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist/vendor.bundle.js:20:1054)
+	at ChildProcess.<anonymous> (/home/rm99/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist/vendor.bundle.js:25:102345)
+	at ChildProcess.emit (node:events:509:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-08-30 18:12:13.171 [error] Unable to refresh tree view liveshare.session: Canceled
+2026-08-30 18:12:13.171 [error] Unable to refresh tree view liveshare.session.explorer: Canceled
+2026-08-30 18:12:13.198 [info] Extension host with pid 1350940 exiting with code 0

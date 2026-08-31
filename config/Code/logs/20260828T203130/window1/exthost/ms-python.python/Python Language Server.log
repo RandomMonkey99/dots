@@ -1,0 +1,56 @@
+2026-08-28 20:32:25.806 [info] Client: Pylance client (2026.3.1) started with python extension (2026.4.0)
+2026-08-28 20:32:28.065 [info] (1119307): Server root directory: file:///home/rm99/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-08-28 20:32:28.069 [info] (1119307): Pylance language server 2026.3.1 (pyright version 1.1.411, commit 9a9205fc) starting
+2026-08-28 20:32:28.094 [info] (1119307): Starting service instance "python" for workspace "/home/rm99/python"
+2026-08-28 20:32:28.279 [info] Client: Failed to read environment variables; PYTHONPATH will not be injected: EntryIsADirectory (FileSystemError): Error: EISDIR: illegal operation on a directory, read
+2026-08-28 20:32:28.291 [info] Client: Failed to read environment variables; PYTHONPATH will not be injected: EntryIsADirectory (FileSystemError): Error: EISDIR: illegal operation on a directory, read
+2026-08-28 20:32:32.190 [info] (1119307): Loading background bundle file:///home/rm99/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist/copilot-background.bundle.js into file:///home/rm99/python...
+2026-08-28 20:32:32.355 [info] (1119307): Starting Mcp server id:45904 ...
+2026-08-28 20:32:32.476 [info] (1119307): FG(python): Setting environmentName for service "python": ".env (3.14.7)"
+2026-08-28 20:32:32.477 [info] (1119307): FG(python): Setting pythonPath for service "python": "/home/rm99/python/.env/bin/python"
+2026-08-28 20:32:32.479 [info] (1119307): FG(python): No include entries specified; assuming /home/rm99/python
+2026-08-28 20:32:32.482 [info] (1119307): FG(python): Auto-excluding **/node_modules
+2026-08-28 20:32:32.483 [info] (1119307): FG(python): Auto-excluding **/__pycache__
+2026-08-28 20:32:32.483 [info] (1119307): FG(python): Auto-excluding **/.*
+2026-08-28 20:32:32.654 [info] (1119307): FG(python): Assuming Python version 3.14.7.final.0
+2026-08-28 20:32:33.110 [info] (1119307): FG(python): Found 1 source file
+2026-08-28 20:32:33.173 [info] (1119307): Settings have not changed. Skipping update.
+2026-08-28 20:32:34.512 [info] (1119307): [Editable Installs] Starting dynamic pth file resolution for Python: /home/rm99/python/.env/bin/python
+2026-08-28 20:32:34.555 [info] (1119307): [Editable Installs] No sandbox available for Python /home/rm99/python/.env/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-08-28 20:32:35.292 [info] (1119307): PQ(python): Priority queue background worker(2) root directory: file:///home/rm99/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-08-28 20:32:35.293 [info] (1119307): PQ(python): Priority queue background worker(2) started
+2026-08-28 20:32:37.118 [info] (1119307): FG(python): IDX(python): Indexer background runner(3) root directory: file:///home/rm99/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist (index)
+2026-08-28 20:32:37.119 [info] (1119307): FG(python): IDX(python): Indexing(3) started
+2026-08-28 20:32:39.743 [info] (1119307): FG(python): IDX(python): Long operation: scan packages file:///home/rm99/python (2300ms)
+2026-08-28 20:32:39.743 [info] (1119307): FG(python): IDX(python): scanned(3) 10 files over 1 exec env
+2026-08-28 20:32:40.720 [info] (1119307): FG(python): IDX(python): indexed(3) 10 files over 1 exec env
+2026-08-28 20:32:40.724 [info] (1119307): FG(python): IDX(python): Indexing finished(3).
+2026-08-28 20:33:03.562 [info] (1119307): FG(python): Found 1 source file
+2026-08-28 20:33:03.762 [info] (1119307): FG(python): Found 1 source file
+2026-08-28 20:33:19.341 [info] (1119307): FG(python): Found 2 source files
+2026-08-28 20:33:30.775 [info] (1119307): Starting service instance "<default>" for workspace ""
+2026-08-28 20:33:30.776 [info] (1119307): Loading background bundle file:///home/rm99/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist/copilot-background.bundle.js into ...
+2026-08-28 20:33:31.019 [info] (1119307): FG(<default>): Setting environmentName for service "<default>": "Python 3.14.7.final.0"
+2026-08-28 20:33:31.019 [info] (1119307): FG(<default>): Setting pythonPath for service "<default>": "/usr/bin/python"
+2026-08-28 20:33:31.020 [info] (1119307): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-08-28 20:33:31.020 [info] (1119307): FG(<default>): Auto-excluding **/node_modules
+2026-08-28 20:33:31.020 [info] (1119307): FG(<default>): Auto-excluding **/__pycache__
+2026-08-28 20:33:31.020 [info] (1119307): FG(<default>): Auto-excluding **/.*
+2026-08-28 20:33:31.168 [info] (1119307): FG(<default>): Assuming Python version 3.14.7.final.0
+2026-08-28 20:33:31.510 [error] (1119307): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-08-28 20:33:31.511 [info] (1119307): FG(<default>): No source files found.
+2026-08-28 20:33:31.537 [info] (1119307): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python
+2026-08-28 20:33:31.583 [info] (1119307): [Editable Installs] No sandbox available for Python /usr/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-08-28 20:33:33.204 [info] (1119307): PQ(<default>): Priority queue background worker(5) root directory: file:///home/rm99/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-08-28 20:33:33.210 [info] (1119307): PQ(<default>): Priority queue background worker(5) started
+2026-08-28 20:34:27.018 [info] (1119307): FG(python): Found 2 source files
+2026-08-28 20:39:09.945 [info] (1119307): FG(python): Found 3 source files
+2026-08-28 20:41:50.801 [error] Request textDocument/codeAction failed.
+  Message: Request textDocument/codeAction failed with message: request cancelled
+  Code: -32603 
+2026-08-28 20:42:08.012 [info] Client: Failed to read environment variables; PYTHONPATH will not be injected: EntryIsADirectory (FileSystemError): Error: EISDIR: illegal operation on a directory, read
+2026-08-28 20:42:08.084 [info] (1119307): Settings have not changed. Skipping update.
+2026-08-28 20:42:08.111 [info] (1119307): Settings have not changed. Skipping update.
+2026-08-28 20:42:41.299 [info] (1119307): BG(python): Long operation: checking: file:///usr/lib/python3.14/turtle.py (2780ms)
+2026-08-28 20:42:41.299 [info] (1119307): BG(python): Long operation: analyzing: file:///usr/lib/python3.14/turtle.py (2781ms)
+2026-08-28 20:49:04.923 [info] (1119307): FG(python): Found 3 source files

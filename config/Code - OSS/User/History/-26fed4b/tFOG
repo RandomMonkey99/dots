@@ -1,0 +1,20 @@
+#
+# ~/.bashrc
+#
+
+source ~/.bash_aliases
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+export PATH="$HOME/.local/bin:$PATH"
+
+# rofi-wallpaper-changer
+export ROFI_WALL_DIR="/home/rm99/.config/wallpaper/"
+alias matrix="unimatrix -l k -c red -a -w"
+PS1='\[\e[1m\] ⟨\[\e[0m\] \[\e[96;1m\]󰣇\[\e[0m\] \[\e[91;1m\]\u\[\e[0m\]@\[\e[94;1m\]\h\[\e[0m\] \[\e[1m\]⟩\n\[\e[0m\] \w \[\e[91m\]カ \[\e[0m\]'source -- ~/.local/share/blesh/ble.sh
+source ~/.local/share/blesh/ble.sh

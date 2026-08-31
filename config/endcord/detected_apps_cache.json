@@ -1,0 +1,86 @@
+{
+  "/usr/bin/start-hyprland": [
+    null,
+    null,
+    null,
+    1786787664
+  ],
+  "/usr/bin/dbus-broker-launch": [
+    null,
+    null,
+    null,
+    1786787664
+  ],
+  "/usr/bin/pipewire": [
+    null,
+    null,
+    null,
+    1786787664
+  ],
+  "/usr/bin/wireplumber": [
+    null,
+    null,
+    null,
+    1786787664
+  ],
+  "/usr/bin/playerctld": [
+    null,
+    null,
+    null,
+    1786787664
+  ],
+  "/usr/bin/kitten__atexit__": [
+    null,
+    null,
+    null,
+    1786787664
+  ],
+  "/bin/bash": [
+    null,
+    null,
+    null,
+    1786787664
+  ],
+  "/usr/bin/kitten__watch_conf__13198100/etc/xdg/kitty/kitty.conf/home/rm99/.config/kitty/kitty.conf": [
+    null,
+    null,
+    null,
+    1786787664
+  ],
+  "/usr/bin/mako": [
+    null,
+    null,
+    null,
+    1786787664
+  ],
+  "/usr/bin/pipewire-pulse": [
+    null,
+    null,
+    null,
+    1786787664
+  ],
+  "micro/home/rm99/.config/hypr/hyprland.lua": [
+    null,
+    null,
+    null,
+    1786787664
+  ],
+  "/usr/bin/endcord": [
+    null,
+    null,
+    null,
+    1786787664
+  ],
+  "awk\n  $1 == \"*\" { \n    sub(/^[*[space]]+[0-9]+/. /, \"\", $0)\n    sub(/  /[vol.*/, \"\", $0)\n    print\n  }\n": [
+    null,
+    null,
+    null,
+    1786786310
+  ],
+  "/usr/bin/kittenchoose-files": [
+    null,
+    null,
+    null,
+    1786786360
+  ]
+}

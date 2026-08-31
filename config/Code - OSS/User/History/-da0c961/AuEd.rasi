@@ -1,0 +1,6 @@
+
+@theme "/home/rm99/.config/rofi/themes/tokyonight.rasi"
+
+configuration{
+    drun-display-format: "{icon} {name}";
+}

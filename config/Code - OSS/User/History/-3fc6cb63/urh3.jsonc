@@ -1,0 +1,179 @@
+{
+    "layer": "top",
+    "position": "left",
+    "reload_style_on_change": true,
+    "width": 44,
+    "style": "~/.config/waybar/style.css",
+    "margin-left": 0,
+    "margin-right": 0,
+    "margin-top": 0,
+    "margin-bottom": 0,
+    "spacing": 0,
+    "gtk-layer-shell": true,
+    "output": [
+        "HDMI-A-1",
+        "eDP-1"
+    ],
+    "modules-left": [
+        "custom/power",
+        "hyprland/workspaces",
+        "mpris"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        //"wireplumber",
+        "custom/volume",
+        "backlight",
+        //"bluetooth",
+        "network",
+        "battery"
+    ],
+    "custom/power": {
+        "format": " 󰤆 ",
+        "on-click": "wleave",
+        "tooltip": false
+    },
+    "clock": {
+        "format": "{:%H\n──\n%M %S}",
+        //"rotate": 90,
+        "tooltip": false
+    },
+    "hyprland/workspaces": {
+        "on-click": "activate",
+        "active-only": false,
+        "all-outputs": true,
+        "format": "{icon}",
+        "tooltip": false,
+        "format-icons": {
+            "1": "一",
+            "2": "二",
+            "3": "三",
+            "4": "四",
+            "5": "五",
+            "6": "六",
+            "7": "七",
+            "8": "八",
+            "9": "九",
+            "10": "十"
+        }
+    },
+    "mpris": {
+        "format": "{artist}-{title}",
+        "format-playing": "󰏤 {artist}-{title}",
+        "format-paused": "󰐊 {artist}-{title}",
+        "rotate": 90,
+        "max-length": 20,
+        "min-length": 10,
+        "on-click": "playerctl play-pause",
+        "on-scroll-up": "playerctl previous",
+        "on-scroll-down": "playerctl next",
+        "tooltip": false
+    },
+    "battery": {
+        "states": {
+            "good": 60,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}",
+        "format-alt": " {icon}\n{capacity}",
+        "format-plugged": "󰂄",
+        "format-icons": [
+            "󰂎",
+            "󰁺",
+            "󰁻",
+            "󰁼",
+            "󰁽",
+            "󰁾",
+            "󰁿",
+            "󰂀",
+            "󰂁",
+            "󰂂",
+            "󰁹"
+        ],
+        "tooltip": false
+    },
+    "network": {
+        "format-wifi": " {icon}",
+        "format-ethernet": "󰈀",
+        "format-icons": [
+            "󰤯 ",
+            "󰤟 ",
+            "󰤢 ",
+            "󰤨 "
+        ],
+        "format-disconnected": "󰪎",
+        "on-click": "kitty -e nmtui",
+        "interval": 3,
+        "tooltip": false
+    },
+    "bluetooth": {
+        "format": "{icon}",
+        "format-icons": [
+            "",
+            "󰤾",
+            "󰥀",
+            "󰥄",
+            "󰥈"
+        ],
+        "format-connected-battery": "󰋋",
+        "tooltip": false,
+        "on-click": "blueman-manager"
+    },
+    "backlight": {
+        "device": "intel_backlight",
+        "format-alt": "{icon}",
+        "format": " {icon}\n{percent}",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "tooltip": false,
+        "on-click-right": "~/.config/waybar/scripts/sunset-toggle.sh"
+    },
+    "wireplumber": {
+        "format": "{icon}",
+        "format-alt": " {icon}\n{volume}",
+        "format-icons": [
+            "",
+            "󰪞",
+            "󰪟",
+            "󰪠",
+            "󰪡",
+            "󰪢",
+            "󰪣",
+            "󰪤",
+            "󰪥"
+        ],
+        "format-muted": "",
+        "max-volume": 99,
+        "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+        "on-click-middle": "blueman-manager"
+    },
+    "custom/volume": {
+        "exec": "~/.config/waybar/scripts/volume.sh",
+        "interval": 3600,
+        "return-type": "json",
+        "format": "{}",
+        "signal": 8,
+        "tooltip": false,
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+        "on-click-middle": "blueman-manager",
+        "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%+ && pkill -RTMIN+8 waybar",
+        "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%- && pkill -RTMIN+8 waybar"
+    },
+}

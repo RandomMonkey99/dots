@@ -1,0 +1,120 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "642efac9da3607718569853aca8bf1b562fd4f6a9e63e6b978774c4b9cec645d",
+    "telemetry.devDeviceId": "0880a0b0-6d9b-4f4e-89df-c6aaffbe40a3",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/rm99/.config/hypr"
+            },
+            {
+                "folderUri": "file:///home/rm99/python"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 30,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/rm99/.config/hypr": "__default__profile__",
+            "file:///home/rm99/.config/rofi": "__default__profile__",
+            "file:///home/rm99/.config": "__default__profile__",
+            "file:///home/rm99/python": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/rm99/python",
+            "backupPath": "/home/rm99/.config/Code/Backups/2d092c70b5e7bb905f2e60d61f431399",
+            "uiState": {
+                "mode": 0,
+                "x": 16,
+                "y": 10,
+                "width": 1280,
+                "height": 720
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "panelBackground": "#191a1b",
+            "editorGroupBorder": "rgba(255, 255, 255, 0.09)",
+            "agentsPanelBackground": "#191a1b",
+            "agentsPanelBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 44,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 28,
+            "windowBorder": false,
+            "modernUI": true,
+            "partBounds": {
+                "sideBar": {
+                    "top": 30,
+                    "left": 48,
+                    "width": 166,
+                    "height": 633.3333740234375
+                },
+                "panel": {
+                    "top": 440,
+                    "left": 218,
+                    "width": 977,
+                    "height": 223.33334350585938
+                },
+                "editor": {
+                    "top": 30,
+                    "left": 218,
+                    "width": 977,
+                    "height": 405.3333435058594
+                }
+            }
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 170,
+            "workspaces": {
+                "1a62cab7eb432840e28612e227361478": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "51fed07008f79d1586dc66a5040adbf9": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "4e31085005888a75601f9cea98938bcb": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "2443d91d929b9cce3a1aa3a707952b8d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

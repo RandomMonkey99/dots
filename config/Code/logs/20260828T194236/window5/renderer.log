@@ -1,0 +1,26 @@
+2026-08-28 20:18:42.018 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 29ms.
+2026-08-28 20:18:42.301 [warning] Creation of workbench contribution 'workbench.contrib.agentHostChatDebug' took 27ms.
+2026-08-28 20:18:42.344 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 25ms.
+2026-08-28 20:18:42.446 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-08-28 20:18:43.465 [info] [ChatModelSelection] event=initialize surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined rememberedModel=undefined availableModels="copilot/auto" selection="apply" resultModel="copilot/auto" resultReason="firstAvailable" pendingReference=undefined
+2026-08-28 20:18:45.098 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-08-28 20:18:45.792 [info] Started local extension host with pid 1018805.
+2026-08-28 20:18:46.315 [error] Extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-08-28 20:18:47.428 [info] [AgentHost:renderer] Protocol connection established; clientId=036d39ff-b9be-4d21-8a0c-172e17845650
+2026-08-28 20:18:48.914 [info] [RemoteAgentHostProtocol] Mirroring configuration to host root config from DEFAULT: byokModelsEnabled=true (chat.agentHost.byokModels.enabled)
+2026-08-28 20:18:51.548 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-28 20:18:54.581 [info] Extension host (LocalProcess pid: 1018805) is unresponsive.
+2026-08-28 20:18:56.562 [info] Extension host (LocalProcess pid: 1018805) is responsive.
+2026-08-28 20:18:56.577 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-28 20:18:59.539 [warning] [RemoteAgentHostProtocol] Request 3 failed: {"code":-32603,"message":"ProviderCatalogUnavailableError: Provider claude cannot enumerate its native session catalog yet\n    at hg._migrateLegacyProviderChats (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:975:34194)"}
+2026-08-28 20:19:00.126 [warning] [RemoteAgentHostProtocol] Request 4 failed: {"code":-32603,"message":"ProviderCatalogUnavailableError: Provider claude cannot enumerate its native session catalog yet\n    at hg._migrateLegacyProviderChats (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:975:34194)"}
+2026-08-28 20:19:01.570 [error] [Extension Host] (node:1018805) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-08-28 20:19:01.588 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-08-28 20:19:02.123 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-08-28 20:19:03.891 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-08-28 20:19:10.213 [info] [perf] Render performance baseline is 223ms
+2026-08-28 20:19:31.784 [warning] [RemoteAgentHostProtocol] Request 12 failed: {"code":-32603,"message":"ProviderCatalogUnavailableError: Provider claude cannot enumerate its native session catalog yet\n    at hg._migrateLegacyProviderChats (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:975:34194)"}
+2026-08-28 20:19:42.820 [warning] [RemoteAgentHostProtocol] Request 15 failed: {"code":-32603,"message":"ProviderCatalogUnavailableError: Provider claude cannot enumerate its native session catalog yet\n    at hg._migrateLegacyProviderChats (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:975:34194)"}
+2026-08-28 20:19:44.663 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-08-28 20:19:44.664 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'

@@ -1,0 +1,44 @@
+2026-08-30 16:27:51.543 [info] Log path: file:///home/rm99/.vscode/extensions/sumneko.lua-3.19.1-linux-x64/server/log/file_home_rm99_.config_hypr.log
+2026-08-30 16:27:54.315 [info] Client not ready!	file:///home/rm99/.config/hypr/modules/keybindings.lua
+stack traceback:
+	script/files.lua:665: in field 'compileState'
+	script/files.lua:711: in field 'getState'
+	script/provider/provider.lua:1267: in function <script/provider/provider.lua:1264>
+	[C]: in global 'xpcall'
+	script/proto/proto.lua:202: in function <script/proto/proto.lua:177>
+
+2026-08-30 16:29:23.947 [info] Brave is dead!: ...mneko.lua-3.19.1-linux-x64/server/script/brave/brave.lua:60: attempt to call a nil value (for iterator 'for iterator')
+stack traceback:
+	...mneko.lua-3.19.1-linux-x64/server/script/brave/brave.lua:60: in field 'start'
+	...mneko.lua-3.19.1-linux-x64/server/script/brave/brave.lua:33: in field 'register'
+	[string "package.path  = "/home/rm99/.vscode/extension..."]:13: in main chunk
+	[C]: in ?
+stack traceback:
+	script/pub/pub.lua:281: in field 'checkDead'
+	script/pub/pub.lua:286: in field 'step'
+	script/service/service.lua:173: in upvalue 'doSomething'
+	script/service/service.lua:186: in local 'sleep'
+	script/service/service.lua:204: in field 'eventLoop'
+	script/service/service.lua:287: in field 'start'
+	.../extensions/sumneko.lua-3.19.1-linux-x64/server/main.lua:85: in main chunk
+	(main.lua):85: in main chunk
+	(bootstrap.lua):17: in main chunk
+	[C]: in ?
+Brave is dead!: ...mneko.lua-3.19.1-linux-x64/server/script/brave/brave.lua:60: attempt to call a nil value (for iterator 'for iterator')
+stack traceback:
+	...mneko.lua-3.19.1-linux-x64/server/script/brave/brave.lua:60: in field 'start'
+	...mneko.lua-3.19.1-linux-x64/server/script/brave/brave.lua:33: in field 'register'
+	[string "package.path  = "/home/rm99/.vscode/extension..."]:13: in main chunk
+	[C]: in ?
+stack traceback:
+	script/pub/pub.lua:281: in field 'checkDead'
+	script/pub/pub.lua:286: in field 'step'
+	script/service/service.lua:173: in upvalue 'doSomething'
+	script/service/service.lua:186: in local 'sleep'
+	script/service/service.lua:204: in field 'eventLoop'
+	script/service/service.lua:287: in field 'start'
+	.../extensions/sumneko.lua-3.19.1-linux-x64/server/main.lua:85: in main chunk
+	(main.lua):85: in main chunk
+	(bootstrap.lua):17: in main chunk
+	[C]: in ?
+

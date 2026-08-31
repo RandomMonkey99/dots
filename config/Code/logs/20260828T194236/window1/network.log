@@ -1,0 +1,5 @@
+2026-08-28 19:44:01.347 [error] #30: https://api.github.com/copilot_internal/managed_settings?client_id=vscode&client_version=1.135.0&copilot_runtime_version=1.0.81-0 - error GET Failed to fetch
+2026-08-28 19:44:01.361 [error] #31: https://api.github.com/copilot/mcp_registry - error GET Failed to fetch
+2026-08-28 19:44:01.453 [error] #32: https://api.github.com/copilot/mcp_registry - error GET Failed to fetch
+2026-08-28 19:44:01.491 [error] #33: https://api.github.com/copilot/mcp_registry - error GET Offline
+2026-08-28 19:50:10.458 [error] #35: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled

@@ -1,0 +1,12 @@
+2026-08-28 17:20:15.213 [info] StorageMainService: creating application shared storage
+2026-08-28 17:20:15.538 [info] [shared storage] Creating shared storage database at '/home/rm99/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-08-28 17:20:15.543 [info] [shared storage] Initializing fallback application storage (path: /home/rm99/.config/Code - OSS/User/globalStorage/state.vscdb)
+2026-08-28 17:20:15.580 [info] [shared storage] Fallback application storage initialized with 78 items
+2026-08-28 17:20:15.596 [info] update#setState disabled
+2026-08-28 17:20:15.597 [info] update#ctor - updates are disabled as there is no update URL
+2026-08-28 17:20:19.139 [info] AgentHostProcessManager: agent host started
+2026-08-28 17:20:23.280 [error] [AgentHost:stderr] (node:164356) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-08-28 17:25:49.600 [info] Extension host with pid 164583 exited with code: 0, signal: unknown.
+2026-08-28 17:25:50.387 [error] [UtilityProcess type: ptyHost, pid: 211701]: crashed with code 256 and reason 'abnormal-exit'

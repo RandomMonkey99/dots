@@ -1,0 +1,33 @@
+2026-08-28 20:32:11.459 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-08-28 20:32:13.348 [info] [test-by-project] Activating project-based testing mode
+2026-08-28 20:32:13.348 [info] [test-by-project] Discovering projects for workspace: /home/rm99/python
+2026-08-28 20:32:13.349 [info] Native locator: Refresh started
+2026-08-28 20:32:13.349 [info] [test-by-project] Found 1 total Python projects from API
+2026-08-28 20:32:13.349 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-08-28 20:32:13.349 [info] [test-by-project] Creating adapter for: python at file:///home/rm99/python
+2026-08-28 20:32:14.510 [info] Native locator: Refresh started
+2026-08-28 20:32:15.649 [info] [test-by-project] Registered 1 project(s) for /home/rm99/python
+2026-08-28 20:32:15.660 [info] [test-by-project] Activated 1 project(s) for /home/rm99/python
+2026-08-28 20:32:15.661 [info] [test-by-project] Subscribed to Python project changes
+2026-08-28 20:32:21.766 [info] Native locator: Refresh finished in 8417 ms
+2026-08-28 20:32:21.784 [error] Custom .env is likely not pointing to a valid file [EntryIsADirectory (FileSystemError): Error: EISDIR: illegal operation on a directory, read
+	at lr._handleError (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:544:21539)
+	at Object.readFile (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:544:19809)
+	at async S.readText (/home/rm99/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/out/client/extension.js:2:232078)
+	at async g.parseFile (/home/rm99/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/out/client/extension.js:2:387518)
+	at async _._getEnvironmentVariables (/home/rm99/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/out/client/extension.js:2:392847)
+	at async _.getEnvironmentVariables (/home/rm99/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/out/client/extension.js:2:392014)
+	at async u.create (/home/rm99/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/out/client/extension.js:2:261489)
+	at async t.shellExecute (/home/rm99/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/out/client/extension.js:2:740235)
+	at async t.getActivePyenvForDirectory (/home/rm99/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/out/client/extension.js:2:734153)
+	at async f.initialize (/home/rm99/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/out/client/extension.js:2:503505)
+	at async _.autoselectInterpreterWithLocators (/home/rm99/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/out/client/extension.js:2:497570)
+	at async _.autoSelectInterpreter (/home/rm99/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/out/client/extension.js:2:494715)
+	at async v.activateWorkspace (/home/rm99/.vscode/extensions/ms-python.python-2026.4.0-linux-x64/out/client/extension.js:2:2185)] {
+  code: 'FileIsADirectory'
+}
+2026-08-28 20:32:21.821 [info] > pyenv which python
+2026-08-28 20:32:21.821 [info] cwd: .
+2026-08-28 20:32:22.406 [info] Active interpreter [/home/rm99/python]:  /home/rm99/python/.env/bin/python
+2026-08-28 20:32:28.214 [info] Starting Pylance language server.
+2026-08-28 20:42:07.900 [error] Unable to find workspace for given file

@@ -1,0 +1,7 @@
+{
+    "comments.thread.confirmOnCollapse": "never",
+    "security.workspace.trust.untrustedFiles": "open",
+  "Lua.workspace.library": [
+    "/usr/share/hypr/stubs"
+  ]
+}

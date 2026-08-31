@@ -1,0 +1,6 @@
+2026-08-15 14:04:38.678 [info] StorageMainService: creating application shared storage
+2026-08-15 14:04:39.035 [info] [shared storage] Creating shared storage database at '/home/rm99/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-08-15 14:04:39.041 [info] [shared storage] Initializing fallback application storage (path: /home/rm99/.config/Code - OSS/User/globalStorage/state.vscdb)
+2026-08-15 14:04:39.072 [info] [shared storage] Fallback application storage initialized with 76 items
+2026-08-15 14:04:39.084 [info] update#setState disabled
+2026-08-15 14:04:39.086 [info] update#ctor - updates are disabled as there is no update URL

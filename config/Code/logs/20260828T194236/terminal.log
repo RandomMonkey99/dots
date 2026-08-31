@@ -1,0 +1,142 @@
+2026-08-28 20:10:09.445 [info] RunInTerminalTool: Command rewritten by m6e: Prepended with a space to exclude from shell history []
+2026-08-28 20:10:09.724 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: Parsed sub-commands via bash grammar [["python"]]
+2026-08-28 20:10:09.729 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: All sub-commands NOT auto-approved [null]
+2026-08-28 20:10:09.730 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: Command line NOT auto-approved [null]
+2026-08-28 20:10:09.730 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'python' has no matching auto approve entries [null]
+2026-08-28 20:10:09.731 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command line 'python - <<'PY'
+import urllib.request, re
+urls = [
+    'https://wiki.hypr.land/Configuring/Configuring-Hyprland/',
+    'https://wiki.hypr.land/Configuring/Variables/',
+    'https://wiki.hypr.land/Configuring/Binds/'
+]
+for url in urls:
+    print(f'===== {url} =====')
+    html = urllib.request.urlopen(url, timeout=20).read().decode('utf-8', 'replace')
+    # strip script/style and collapse whitespace for readability
+    text = re.sub(r'<script.*?</script>', ' ', html, flags=re.S|re.I)
+    text = re.sub(r'<style.*?</style>', ' ', text, flags=re.S|re.I)
+    text = re.sub(r'<[^>]+>', ' ', text)
+    text = re.sub(r'\s+', ' ', text)
+    # Keep some core informative chunks from the pages
+    for pat in ['Configuring Hyprland', 'Variables', 'Binds', 'exec-once', 'bind =', 'monitor =', 'general', 'input', 'decoration', 'animations']:
+        idx = text.find(pat)
+        if idx != -1:
+            snippet = text[max(0, idx-200):idx+1200]
+            print(snippet[:1200].strip())
+            break
+    print('\n')
+PY' has no matching auto approve entries [null]
+2026-08-28 20:10:09.757 [info] RunInTerminalTool#CommandLineFileWriteAnalyzer: File writes detected [[]]
+2026-08-28 20:10:38.468 [info] ToolTerminalCreator#createTerminal: Waiting 4994ms for shell integration []
+2026-08-28 20:10:38.469 [info] ToolTerminalCreator#_waitForShellIntegration: base 4994ms, effective 4994ms, screenReaderOptimized=false []
+2026-08-28 20:10:38.937 [info] ToolTerminalCreator#_waitForShellIntegration: Rich SI available eventually []
+2026-08-28 20:10:38.947 [info] ToolTerminalCreator#_waitForShellIntegration: Promise complete, disposing store []
+2026-08-28 20:10:38.948 [info] ToolTerminalCreator#createTerminal: Waiting up to 2s for PromptInputModel state to change []
+2026-08-28 20:10:39.029 [info] RunInTerminalTool: Using `rich` execute strategy for command ` python - <<'PY'
+import urllib.request, re
+urls = [
+    'https://wiki.hypr.land/Configuring/Configuring-Hyprland/',
+    'https://wiki.hypr.land/Configuring/Variables/',
+    'https://wiki.hypr.land/Configuring/Binds/'
+]
+for url in urls:
+    print(f'===== {url} =====')
+    html = urllib.request.urlopen(url, timeout=20).read().decode('utf-8', 'replace')
+    # strip script/style and collapse whitespace for readability
+    text = re.sub(r'<script.*?</script>', ' ', html, flags=re.S|re.I)
+    text = re.sub(r'<style.*?</style>', ' ', text, flags=re.S|re.I)
+    text = re.sub(r'<[^>]+>', ' ', text)
+    text = re.sub(r'\s+', ' ', text)
+    # Keep some core informative chunks from the pages
+    for pat in ['Configuring Hyprland', 'Variables', 'Binds', 'exec-once', 'bind =', 'monitor =', 'general', 'input', 'decoration', 'animations']:
+        idx = text.find(pat)
+        if idx != -1:
+            snippet = text[max(0, idx-200):idx+1200]
+            print(snippet[:1200].strip())
+            break
+    print('\n')
+PY` []
+2026-08-28 20:10:43.588 [info] trackIdleOnPrompt: State Initial → Executing (sequence C) []
+2026-08-28 20:10:44.321 [info] trackIdleOnPrompt: State Executing → PromptAfterExecuting (sequence A after executing) []
+2026-08-28 20:10:45.327 [info] trackIdleOnPrompt: Idle scheduler fired, completing (dataEvents=15) []
+2026-08-28 20:10:45.344 [info] RunInTerminalTool: Finished `rich` execute strategy with exitCode `undefined`, result.length `2059`, error `undefined` []
+2026-08-28 20:10:45.347 [info] RunInTerminalTool: shellIntegrationQuality=rich at banner decision time []
+2026-08-28 20:10:55.406 [warning] Shell integration failed to add capabilities within 10 seconds []
+2026-08-28 20:11:00.941 [info] RunInTerminalTool: Command rewritten by m6e: Prepended with a space to exclude from shell history []
+2026-08-28 20:11:01.011 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: Parsed sub-commands via bash grammar [["python"]]
+2026-08-28 20:11:01.014 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: All sub-commands NOT auto-approved [null]
+2026-08-28 20:11:01.014 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: Command line NOT auto-approved [null]
+2026-08-28 20:11:01.015 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'python' has no matching auto approve entries [null]
+2026-08-28 20:11:01.015 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command line 'python - <<'PY'
+import requests, re
+from bs4 import BeautifulSoup
+urls = [
+ 'https://wiki.hypr.land/Configuring/Configuring-Hyprland/',
+ 'https://wiki.hypr.land/Configuring/Variables/',
+ 'https://wiki.hypr.land/Configuring/Binds/'
+]
+for url in urls:
+    print('===== ' + url + ' =====')
+    r = requests.get(url, headers={'User-Agent':'Mozilla/5.0'}, timeout=20)
+    print('status', r.status_code)
+    if r.ok:
+        soup = BeautifulSoup(r.text, 'html.parser')
+        text = soup.get_text('\n', strip=True)
+        # print a few useful snippets around keywords
+        for keyword in ['bind', 'monitor', 'exec-once', 'general', 'input', 'decoration', 'animation', 'windowrule', 'source']:
+            idx = text.lower().find(keyword)
+            if idx != -1:
+                snippet = text[max(0, idx-220):idx+700]
+                print(snippet)
+                print('---')
+                break
+    print('\n')
+PY' has no matching auto approve entries [null]
+2026-08-28 20:11:01.040 [info] RunInTerminalTool#CommandLineFileWriteAnalyzer: File writes detected [[]]
+2026-08-28 20:15:43.860 [info] RunInTerminalTool: Using `rich` execute strategy for command ` python - <<'PY'
+import requests, re
+from bs4 import BeautifulSoup
+urls = [
+ 'https://wiki.hypr.land/Configuring/Configuring-Hyprland/',
+ 'https://wiki.hypr.land/Configuring/Variables/',
+ 'https://wiki.hypr.land/Configuring/Binds/'
+]
+for url in urls:
+    print('===== ' + url + ' =====')
+    r = requests.get(url, headers={'User-Agent':'Mozilla/5.0'}, timeout=20)
+    print('status', r.status_code)
+    if r.ok:
+        soup = BeautifulSoup(r.text, 'html.parser')
+        text = soup.get_text('\n', strip=True)
+        # print a few useful snippets around keywords
+        for keyword in ['bind', 'monitor', 'exec-once', 'general', 'input', 'decoration', 'animation', 'windowrule', 'source']:
+            idx = text.lower().find(keyword)
+            if idx != -1:
+                snippet = text[max(0, idx-220):idx+700]
+                print(snippet)
+                print('---')
+                break
+    print('\n')
+PY` []
+2026-08-28 20:15:47.768 [info] trackIdleOnPrompt: State Initial → Executing (sequence C) []
+2026-08-28 20:15:50.611 [info] trackIdleOnPrompt: State Executing → PromptAfterExecuting (sequence A after executing) []
+2026-08-28 20:15:51.612 [info] trackIdleOnPrompt: Idle scheduler fired, completing (dataEvents=16) []
+2026-08-28 20:15:51.624 [info] RunInTerminalTool: Finished `rich` execute strategy with exitCode `undefined`, result.length `1201`, error `undefined` []
+2026-08-28 20:15:51.628 [info] RunInTerminalTool: shellIntegrationQuality=rich at banner decision time []
+2026-08-28 20:15:59.012 [info] RunInTerminalTool: Command rewritten by m6e: Prepended with a space to exclude from shell history []
+2026-08-28 20:15:59.084 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: Parsed sub-commands via bash grammar [["curl -L -A 'Mozilla/5.0' -I https://wiki.hypr.land/","head -n 20","printf '\\n---\\n'","curl -L -A 'Mozilla/5.0' -I https://wiki.hyprland.org/","head -n 20"]]
+2026-08-28 20:15:59.087 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: Sub-command DENIED auto approval [null]
+2026-08-28 20:15:59.087 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'curl -L -A 'Mozilla/5.0' -I https://wiki.hypr.land/' is denied by deny list rule: curl [null]
+2026-08-28 20:15:59.088 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'head -n 20' is approved by allow list rule: head [null]
+2026-08-28 20:15:59.088 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'printf '\n---\n'' has no matching auto approve entries [null]
+2026-08-28 20:15:59.089 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'curl -L -A 'Mozilla/5.0' -I https://wiki.hyprland.org/' is denied by deny list rule: curl [null]
+2026-08-28 20:15:59.089 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command 'head -n 20' is approved by allow list rule: head [null]
+2026-08-28 20:15:59.090 [info] RunInTerminalTool#CommandLineAutoApproveAnalyzer: - Command line 'curl -L -A 'Mozilla/5.0' -I https://wiki.hypr.land/ | head -n 20 && printf '\n---\n' && curl -L -A 'Mozilla/5.0' -I https://wiki.hyprland.org/ | head -n 20' has no matching auto approve entries [null]
+2026-08-28 20:15:59.117 [info] RunInTerminalTool#CommandLineFileWriteAnalyzer: File writes detected [[]]
+2026-08-28 20:16:02.506 [info] RunInTerminalTool: Using `rich` execute strategy for command ` curl -L -A 'Mozilla/5.0' -I https://wiki.hypr.land/ | head -n 20 && printf '\n---\n' && curl -L -A 'Mozilla/5.0' -I https://wiki.hyprland.org/ | head -n 20` []
+2026-08-28 20:16:03.538 [info] trackIdleOnPrompt: State Initial → Executing (sequence C) []
+2026-08-28 20:16:04.125 [info] trackIdleOnPrompt: State Executing → PromptAfterExecuting (sequence A after executing) []
+2026-08-28 20:16:05.125 [info] trackIdleOnPrompt: Idle scheduler fired, completing (dataEvents=65) []
+2026-08-28 20:16:05.138 [info] RunInTerminalTool: Finished `rich` execute strategy with exitCode `undefined`, result.length `2256`, error `undefined` []
+2026-08-28 20:16:05.141 [info] RunInTerminalTool: shellIntegrationQuality=rich at banner decision time []

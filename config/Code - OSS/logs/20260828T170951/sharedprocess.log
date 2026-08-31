@@ -1,0 +1,4 @@
+2026-08-28 17:15:54.628 [info] Installing extension: ms-vsliveshare.vsliveshare {"installGivenVersion":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/rm99/.vscode-oss/extensions/extensions.json","path":"/home/rm99/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.135.0","date":"2026-08-19T08:33:33Z"}}
+2026-08-28 17:15:57.774 [info] Extracted extension to file:///home/rm99/.vscode-oss/extensions/ms-vsliveshare.vsliveshare-1.1.122: ms-vsliveshare.vsliveshare
+2026-08-28 17:15:57.891 [info] Renamed to /home/rm99/.vscode-oss/extensions/ms-vsliveshare.vsliveshare-1.1.122
+2026-08-28 17:15:58.630 [info] Extension installed successfully: ms-vsliveshare.vsliveshare vscode-userdata:/home/rm99/.vscode-oss/extensions/extensions.json
