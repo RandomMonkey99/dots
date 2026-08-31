@@ -1,7 +1,0 @@
-2026-08-21 18:59:58.509 [info] StorageMainService: creating application shared storage
-2026-08-21 18:59:58.604 [info] [shared storage] Creating shared storage database at '/home/rm99/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
-2026-08-21 18:59:58.607 [info] [shared storage] Initializing fallback application storage (path: /home/rm99/.config/Code - OSS/User/globalStorage/state.vscdb)
-2026-08-21 18:59:58.623 [info] [shared storage] Fallback application storage initialized with 76 items
-2026-08-21 18:59:58.625 [info] update#setState disabled
-2026-08-21 18:59:58.625 [info] update#ctor - updates are disabled as there is no update URL
-2026-08-21 21:12:02.340 [info] Extension host with pid 2762406 exited with code: 0, signal: unknown.

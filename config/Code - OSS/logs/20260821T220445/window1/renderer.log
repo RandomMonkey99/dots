@@ -1,8 +1,0 @@
-2026-08-21 22:04:46.746 [info] Started local extension host with pid 3402459.
-2026-08-21 22:04:47.020 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
-2026-08-21 22:04:48.770 [error] [Extension Host] (node:3402459) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
-(Use `exe --trace-deprecation ...` to show where the warning was created)
-2026-08-21 22:04:49.123 [error] [Extension Host] (node:3402459) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
-2026-08-21 22:04:49.129 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
-2026-08-21 22:04:50.674 [info] [perf] Render performance baseline is 48ms
-2026-08-21 22:04:54.092 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
