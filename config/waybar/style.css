@@ -1,0 +1,140 @@
+@import "colors.css";
+
+* {
+    background-color: transparent;
+    font-family: "Firacode Nerd Font", monospace;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+window#waybar {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border-radius: 0px;
+}
+
+.module {
+    padding: 8px 4px;
+    background-color: @background;
+    opacity: 0.8;
+    border: 2px solid @primary_container;
+    border-radius: 6px;
+    margin: 4px 6px;
+}
+
+#clock {
+    color: @primary;
+}
+
+#backlight {
+    color: @primary;
+    padding: 8px 11px 8px 1px;
+
+}
+
+#mpris {
+	color: @primary;
+	background-image: url("/home/rm99/.cache/waybar-mpris/art.png"); 
+}
+
+#battery {
+    color: @primary;
+    margin: 4px 6px 10px 6px;
+}
+
+#battery.plugged {
+    color: @source_color;
+}
+
+#battery.critical {
+    color: @error;
+}
+
+#network {
+    color: @primary;
+    padding: 8px 6px 8px 1px;
+}
+
+#bluetooth #workspaces {
+    background: transparent;
+    border-radius: 0px;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    font-style: normal;
+    opacity: 1;
+    font-size: 1px;
+}
+
+#workspaces button {
+    padding: 1px 1px;
+    margin: 1px 1px;
+    border-radius: 6px;
+    color: @primary;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    font-size: 1px;
+    opacity: 1;
+    
+}
+
+#workspaces button:hover {
+	box-shadow: none; /* Remove predefined box-shadow */
+    text-shadow: none; /* Remove predefined text-shadow */
+    background: none; /* Remove predefined background color (white) */
+    transition: none; /* Disable predefined animations */
+    background-color: @primary_container;
+    border-radius: 6px;
+    min-height: 40px;
+    color: @background;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+#workspaces button.active {
+    padding: 1px 1px;
+    margin: 1px 1px;
+    min-height: 35px;
+    border-radius: 6px;
+    background-color: @primary_container;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+    color: @background;
+}
+
+#battery.charging,
+#battery.good:not(.charging),
+#battery.warning:not(.charging),
+#battery.critical:not(.charging) {
+}
+
+#battery.good:not(.charging) {
+    color: @error;
+}
+
+#battery.warning:not(.charging) {
+    color: @error;
+}
+
+#battery.critical:not(.charging) {
+    color: @error;
+}
+
+#battery.critical:not(.charging) {
+    animation: blink 0.6s linear infinite alternate;
+}
+
+#custom-volume {
+	    padding: 8px 14px 8px 1px;
+	    color: @primary;
+	    font-weight: 100;
+}
+
+@keyframes blink {
+    to {
+        color: @error;
+    }
+}

@@ -1,0 +1,5 @@
+[Default Applications]
+text/plain=micro.desktop
+
+[Added Associations]
+text/plain=userapp-code-273US3.desktop;micro.desktop;

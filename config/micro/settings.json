@@ -1,0 +1,27 @@
+{
+    "autosave": 6,
+    "autosu": true,
+    "colorscheme": "matugen",
+    "cursorline": false,
+    "fzfarg": "",
+    "fzfcmd": "/usr/bin/fzf",
+    "fzfopen": "newtab",
+    "fzfpath": "relative",
+    "lsp.ignoreMessages": "LS message1 to ignore|LS message 2 to ignore|...",
+    "lsp.ignoreTriggerCharacters": "completion,signature",
+    "lsp.server": "python=pyls,go=gopls,typescript=deno lsp,rust=rust-analyzer,lua=lua-language-server",
+    "mkparents": true,
+    "pluginrepos": [
+        "https://raw.githubusercontent.com/MuratovAS/micro-fzfinder/main/repo.json",
+        "https://raw.githubusercontent.com/weebi/micro-preview/master/repo.json",
+        "https://github.com/zyedidia/micro"
+    ],
+    "plugins": [
+        "comment",
+        "filemanager",
+        "fzf"
+    ],
+    "preview.input_format": "markdown",
+    "preview.output_format": "xwiki",
+    "statusline": false
+}

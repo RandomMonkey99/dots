@@ -1,0 +1,71 @@
+(defpoll splash :interval "40s"
+  `hyprctl splash`)
+
+(defwidget splash []
+  (box
+    :orientation "v"
+    :halign "start"
+    :valign "start"
+    (label
+      :xalign 0
+      :text splash)))
+
+(defwindow splash
+  :monitor 0
+  :stacking "bg"
+  :geometry (geometry
+    :x "8px"
+    :y "32px"
+    :width "350px"
+    :anchor "top center")
+  (splash))
+
+(deflisten music :initial ""
+  "playerctl --follow metadata --format '{{ title }}' || true")
+
+(defpoll arturl :interval "1s"
+  `playerctl metadata --format '{{mpris:artUrl}}' 2>/dev/null | sed 's|^file://||'`
+)
+
+(defpoll playing :interval "1s"
+  `playerctl status 2>/dev/null || echo Stopped`
+)
+
+(defpoll position :interval "1s"
+  `playerctl position 2>/dev/null || echo 0`
+)
+
+(defpoll length :interval "1s"
+  `playerctl metadata --format '{{mpris:length}}' 2>/dev/null || echo 0`
+)
+
+(defwidget artimage []
+  (box
+    :visible {playing != "Stopped"}
+    :class "art"
+    :orientation "v"
+    :space-evenly false
+
+    (image
+      :path arturl
+      :image-width 200
+      :image-height 200
+    )
+
+    (label
+      :text music
+      :valign "start"
+    )
+	)
+)
+
+(defwindow art
+  :monitor 0
+  :stacking "bg"
+  :geometry (geometry
+    :x "8px"
+    :y "32px"
+    :width "224px"
+    :anchor "top right")
+  (artimage))
+

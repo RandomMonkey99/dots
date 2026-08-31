@@ -1,0 +1,4 @@
+{
+    "F9": "lua:comment.comment",
+	"Ctrl-o": "lua:initlua.fzf"
+}

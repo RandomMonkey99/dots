@@ -1,0 +1,26 @@
+{
+  "wallpaper": {
+    "directory": "~/.config/wallpaper/",
+    "favorites": [
+    ],
+    "recency": {
+      "exclude": [
+      ],
+      "timeout": 28800
+    }
+  },
+  "hyprlock": {
+    "enabled": true,
+    "config": "~/.config/hypr/hyprlock.conf"
+  },
+  "history": {
+    "file": "~/.cache/sw-history",
+    "limit": 500
+  },
+  "queue": {
+    "file": "~/.cache/sw-queue"
+  },
+  "daemon": {
+    "socket_path": "/tmp/sw-daemon.sock"
+  }
+}

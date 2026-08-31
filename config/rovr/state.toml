@@ -1,0 +1,7 @@
+current_version = "0.10.0"
+pinned_sidebar_visible = true
+preview_sidebar_visible = true
+footer_visible = false
+menu_wrapper_visible = true
+sort_by = "name"
+sort_descending = false
